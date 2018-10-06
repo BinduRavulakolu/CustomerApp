@@ -25,7 +25,7 @@ public class Customer {
 
 
 	public Customer(int customerId, String customerName, String customerAddress, String customerEmail,
-			String password) {
+			String customerPassword) {
 		super();
 		this.customerId = customerId;
 		this.customerName = customerName;
@@ -34,6 +34,9 @@ public class Customer {
 		this.customerPassword = customerPassword;
 	}
 
+
+
+	
 
 
 	public int getCustomerId() {
